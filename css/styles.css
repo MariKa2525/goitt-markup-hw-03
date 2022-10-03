@@ -328,19 +328,16 @@ body {
 
     /* Filters */
 
-    .filters {
-        
-
-    }
+   
 
     .filters-list {
-        display: flex;
-        justify-content: center;
+     display: flex;
+    justify-content: center;
     }
 
         
     .filters-list .item + .item {
-        margin-left: 8px;
+    margin-left: 8px;
     }
     
 
@@ -354,14 +351,17 @@ body {
  
     }
 
+    .card-title {
+        padding: 20px 24px;
+        border: 1px solid #EEEEEE;
+    }
+
     .progects-items {
      width: 370px;
     margin-right: 30px;
      margin-bottom: 30px;
-     border: 1px solid #EEEEEE;
      
 
-     
     }
 
     .progects-items:nth-child(3n) {
@@ -375,7 +375,7 @@ body {
 
     .title-progect {
     margin-top: 0;
-     margin-bottom: 0;
+     margin-bottom: 4px;
 
     color: var(--title-text-color);
     font-weight: 700;
@@ -403,6 +403,9 @@ body {
     /* Футер */
 
     .page-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
     color: var(--hero-text-color);
     background: #2F303A;
     text-decoration: none;
@@ -419,7 +422,7 @@ body {
 
     .logo-footer:hover,
     .logo-footer:focus {
-        color: var(--accent-color);
+    color: var(--accent-color);
     }
 
     .adress {
