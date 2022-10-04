@@ -166,6 +166,7 @@ body {
     padding: 10px 32px;
     min-width: 216px;
     text-align: center;
+    border: none;
 
     color: var(--hero-text-color);
     background-color: var(--accent-color);
@@ -176,8 +177,6 @@ body {
     letter-spacing: 0.06em;
     text-decoration: none;
     cursor: pointer;
-
-
     
     }
     
